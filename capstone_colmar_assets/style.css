@@ -1,0 +1,126 @@
+h1,
+h2 {
+  font-weight: bold;
+}
+
+.mobile {
+  display: none;
+}
+
+#banner{
+  background-color: rgb(199, 191, 188);
+}
+
+.block {
+  display: block;
+  width: 90%;
+  border: none;
+  background-color: rgb(94, 75, 75);
+  color: white;
+  padding: 8px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block-courses {
+  display: block;
+  width: 90%;
+  border: none;
+  background-color: rgb(94, 75, 75);
+  color: white;
+  padding: 8px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 8px;
+  padding: 16px 16px 24px 16px;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#information-supper, #thesis-supper {
+  background-color: rgb(199, 191, 188);
+}
+
+#a {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 7.5px 15px 0px;
+  min-height: 165px;
+  background: rgb(255, 255, 255);
+}
+
+#courses-box {
+  padding: 0px;
+  margin-bottom: 0px;
+ 
+}
+
+#courses-text {
+  border: none;
+  min-height: 170px;
+  padding: 16px 16px 8px 16px;
+  background-color: white; 
+}
+
+#courses-color {
+  background-color: rgb(219, 218, 218);
+}
+
+#thesis-main {
+  padding: 0 24px 16px 24px;
+}
+
+#mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #desktop {
+    display: none;
+  }
+
+  #banner {
+    display: none;
+  }
+
+  #information {
+    display: none;
+  }
+
+  #courses-color {
+    display: none;
+  }
+
+  #mobile {
+    display: flex;
+  }
+  /* nav {
+    padding: 0px;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  nav .mobile {
+    display: block;
+    width: 100%;
+    justify-content: space-around
+  }
+
+  nav .mobile il{
+    justify-content: space-around
+  }
+  
+  nav .mobile li{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+  } */
+}
+
